@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blaqplate — Not Just Food... A Feeling.</title>
+<meta name="description" content="Blaqplate is a Nigerian restaurant opening August 30, 2026 in Ugbowo, Benin City. Bold flavour, made to be remembered.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-plate">
+    <span class="loader-ring"></span>
+    <span class="loader-word">BLAQPLATE</span>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">BLAQ<span>PLATE</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#craving">Menu</a>
+      <a href="#why">Why Us</a>
+      <a href="#location">Location</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="https://wa.me/2349155501988" class="btn btn-ghost-nav" target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-grain"></div>
+  </div>
+
+  <div class="hero-content">
+    <span class="badge-opening">
+      <span class="badge-dot"></span> Opening Soon &mdash; Ugbowo, Benin City
+    </span>
+
+    <h1 class="hero-title">
+      <span class="hero-title-line">NOT JUST</span>
+      <span class="hero-title-line hero-title-accent">FOOD<span class="hero-dot">.</span></span>
+      <span class="hero-title-line">A FEELING.</span>
+    </h1>
+
+    <p class="hero-sub">Blaqplate is landing on Ugbowo Lagos Road with bold Nigerian flavour, plated with intention. Jollof that argues with tradition. Grills that don't apologise.</p>
+
+    <div class="hero-actions">
+      <a href="#craving" class="btn btn-primary">View Menu</a>
+      <a href="https://wa.me/2349155501988" class="btn btn-secondary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" class="wa-icon" aria-hidden="true"><path d="M16.001 3C9.11 3 3.5 8.61 3.5 15.5c0 2.3.63 4.46 1.73 6.32L3 29l7.35-2.17a12.44 12.44 0 0 0 5.65 1.36h.01c6.89 0 12.5-5.61 12.5-12.5S22.89 3 16.001 3zm0 22.7h-.01a10.4 10.4 0 0 1-5.3-1.45l-.38-.22-3.94 1.16 1.19-3.84-.25-.4a10.39 10.39 0 0 1-1.6-5.45c0-5.75 4.68-10.42 10.44-10.42 2.79 0 5.41 1.09 7.38 3.06a10.35 10.35 0 0 1 3.06 7.37c0 5.75-4.69 10.42-10.44 10.42zm5.72-7.8c-.31-.16-1.85-.91-2.14-1.02-.29-.1-.5-.16-.71.16-.21.31-.81 1.02-1 1.23-.18.21-.37.23-.68.08-.31-.16-1.32-.49-2.51-1.55-.93-.83-1.56-1.85-1.74-2.16-.18-.31-.02-.48.14-.63.14-.14.31-.37.47-.55.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.71-.97-2.34-.26-.62-.52-.53-.71-.54-.18-.01-.39-.01-.6-.01-.21 0-.55.08-.84.39-.29.31-1.1 1.08-1.1 2.63 0 1.55 1.13 3.05 1.29 3.26.16.21 2.22 3.39 5.38 4.75.75.32 1.34.52 1.8.66.76.24 1.44.21 1.99.13.61-.09 1.85-.76 2.11-1.49.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.37z"/></svg>
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <div class="hero-countdown" id="heroCountdown" aria-live="polite">
+      <div class="hc-item"><span class="hc-num" data-unit="days">00</span><span class="hc-label">Days</span></div>
+      <div class="hc-sep">:</div>
+      <div class="hc-item"><span class="hc-num" data-unit="hours">00</span><span class="hc-label">Hrs</span></div>
+      <div class="hc-sep">:</div>
+      <div class="hc-item"><span class="hc-num" data-unit="minutes">00</span><span class="hc-label">Min</span></div>
+      <div class="hc-sep">:</div>
+      <div class="hc-item"><span class="hc-num" data-unit="seconds">00</span><span class="hc-label">Sec</span></div>
+      <span class="hc-target">until we open — Aug 30, 2026</span>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <span></span> Scroll
+  </div>
+</section>
+
+<!-- ============ EMBER TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>JOLLOF RICE</span><span class="ticker-dot">●</span>
+    <span>SUYA-GLAZED CHICKEN</span><span class="ticker-dot">●</span>
+    <span>PEPPER SOUP</span><span class="ticker-dot">●</span>
+    <span>ASUN</span><span class="ticker-dot">●</span>
+    <span>PLANTAIN</span><span class="ticker-dot">●</span>
+    <span>OFADA SPECIAL</span><span class="ticker-dot">●</span>
+    <span>JOLLOF RICE</span><span class="ticker-dot">●</span>
+    <span>SUYA-GLAZED CHICKEN</span><span class="ticker-dot">●</span>
+    <span>PEPPER SOUP</span><span class="ticker-dot">●</span>
+    <span>ASUN</span><span class="ticker-dot">●</span>
+    <span>PLANTAIN</span><span class="ticker-dot">●</span>
+    <span>OFADA SPECIAL</span><span class="ticker-dot">●</span>
+  </div>
+</div>
+
+<!-- ============ PLATE RIM DIVIDER ============ -->
+<div class="rim-divider" aria-hidden="true">
+  <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0,0 C1200,0 1200,0 1200,0 L1200,20 Q1170,40 1140,20 Q1110,0 1080,20 Q1050,40 1020,20 Q990,0 960,20 Q930,40 900,20 Q870,0 840,20 Q810,40 780,20 Q750,0 720,20 Q690,40 660,20 Q630,0 600,20 Q570,40 540,20 Q510,0 480,20 Q450,40 420,20 Q390,0 360,20 Q330,40 300,20 Q270,0 240,20 Q210,40 180,20 Q150,0 120,20 Q90,40 60,20 Q30,0 0,20 Z"/></svg>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-media" aria-hidden="true">
+      <div class="ph-image ph-about">
+        <span class="ph-label">Editorial photograph — kitchen / plating moment</span>
+      </div>
+      <div class="about-media-tag">Est. Ugbowo, 2026</div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow">01 — About Blaqplate</span>
+      <h2 class="section-title">Food Made<br>To Be Remembered.</h2>
+      <p class="about-text">Blaqplate isn't about getting a plate in front of you fast. It's about the pause right after the first bite — when the pepper hits, the jollof smokes just right, and you look up at whoever you're with because you both need to say something about it.</p>
+      <p class="about-text">We cook the dishes you grew up on, built with sharper technique and heavier hands on flavour. Every plate is finished to be photographed, shared, and — more than anything — finished to be eaten with your fingers, your friends, and zero shame.</p>
+      <div class="about-stats">
+        <div><strong>100%</strong><span>Fresh, daily-prepped ingredients</span></div>
+        <div><strong>Est. 2026</strong><span>Ugbowo, Benin City</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED DISHES ============ -->
+<section class="craving" id="craving">
+  <div class="craving-head">
+    <span class="eyebrow eyebrow-light">02 — Fan Favourites</span>
+    <h2 class="section-title section-title-light">What Are You<br>Craving?</h2>
+  </div>
+
+  <div class="craving-grid">
+    <article class="dish-card dish-card-lg">
+      <div class="ph-image ph-dish" data-tone="red"><span class="ph-icon">🍚</span></div>
+      <div class="dish-body">
+        <div class="dish-top">
+          <h3>Blaqplate Jollof</h3>
+          <span class="dish-price">₦4,500</span>
+        </div>
+        <p>Smoked party-style jollof, deep tomato base, finished with a whisper of thyme and clarified butter.</p>
+        <a href="https://wa.me/2349155501988?text=Hi%20Blaqplate%2C%20I%27d%20like%20to%20order%20the%20Blaqplate%20Jollof" class="dish-cta" target="_blank" rel="noopener">Order Now <span>&rarr;</span></a>
+      </div>
+    </article>
+
+    <article class="dish-card">
+      <div class="ph-image ph-dish" data-tone="gold"><span class="ph-icon">🍗</span></div>
+      <div class="dish-body">
+        <div class="dish-top">
+          <h3>Suya-Glazed Chicken</h3>
+          <span class="dish-price">₦5,200</span>
+        </div>
+        <p>Char-grilled chicken, yaji spice crust, side of pickled onions.</p>
+        <a href="https://wa.me/2349155501988?text=Hi%20Blaqplate%2C%20I%27d%20like%20to%20order%20the%20Suya-Glazed%20Chicken" class="dish-cta" target="_blank" rel="noopener">Order Now <span>&rarr;</span></a>
+      </div>
+    </article>
+
+    <article class="dish-card">
+      <div class="ph-image ph-dish" data-tone="black"><span class="ph-icon">🥘</span></div>
+      <div class="dish-body">
+        <div class="dish-top">
+          <h3>Asun Sharing Plate</h3>
+          <span class="dish-price">₦6,000</span>
+        </div>
+        <p>Spicy grilled goat meat, bell peppers, onions, extra scotch bonnet on request.</p>
+        <a href="https://wa.me/2349155501988?text=Hi%20Blaqplate%2C%20I%27d%20like%20to%20order%20the%20Asun%20Sharing%20Plate" class="dish-cta" target="_blank" rel="noopener">Order Now <span>&rarr;</span></a>
+      </div>
+    </article>
+
+    <article class="dish-card">
+      <div class="ph-image ph-dish" data-tone="red2"><span class="ph-icon">🍲</span></div>
+      <div class="dish-body">
+        <div class="dish-top">
+          <h3>Ofada Special</h3>
+          <span class="dish-price">₦5,800</span>
+        </div>
+        <p>Local ofada rice, ayamase sauce, assorted meat, boiled egg.</p>
+        <a href="https://wa.me/2349155501988?text=Hi%20Blaqplate%2C%20I%27d%20like%20to%20order%20the%20Ofada%20Special" class="dish-cta" target="_blank" rel="noopener">Order Now <span>&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <p class="craving-note">Dish names, photos and prices shown are placeholders — swap in final menu photography and pricing before launch.</p>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="menu" id="menu">
+  <div class="menu-head">
+    <span class="eyebrow">03 — The Full Menu</span>
+    <h2 class="section-title">Browse The Menu</h2>
+    <p class="menu-intro">Tap a category. Every dish is made to order.</p>
+  </div>
+
+  <div class="menu-filters" id="menuFilters" role="tablist" aria-label="Menu categories">
+    <button class="filter-btn is-active" data-cat="all" role="tab" aria-selected="true">All</button>
+    <button class="filter-btn" data-cat="rice" role="tab" aria-selected="false">Rice</button>
+    <button class="filter-btn" data-cat="chicken" role="tab" aria-selected="false">Chicken</button>
+    <button class="filter-btn" data-cat="local" role="tab" aria-selected="false">Local Dishes</button>
+    <button class="filter-btn" data-cat="sides" role="tab" aria-selected="false">Sides</button>
+    <button class="filter-btn" data-cat="drinks" role="tab" aria-selected="false">Drinks</button>
+    <button class="filter-btn" data-cat="specials" role="tab" aria-selected="false">Specials</button>
+  </div>
+
+  <div class="menu-grid" id="menuGrid"><!-- populated by js/script.js --></div>
+</section>
+
+<!-- ============ WHY BLAQPLATE ============ -->
+<section class="why" id="why">
+  <span class="eyebrow eyebrow-light">04 — The Difference</span>
+  <h2 class="section-title section-title-light">Why Blaqplate</h2>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-icon">🔥</span>
+      <h3>Freshly Prepared</h3>
+      <p>Fresh meals prepared with care, every single day — nothing sits around waiting for you.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🌶️</span>
+      <h3>Packed With Flavour</h3>
+      <p>Bold flavours inspired by Nigerian food culture, tuned so every plate hits different.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">❤️</span>
+      <h3>Made With Passion</h3>
+      <p>Food created with attention to quality, from the first prep to the last plating.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">✨</span>
+      <h3>More Than A Meal</h3>
+      <p>An experience worth coming back for — this is where "just food" stops being enough.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COUNTDOWN ============ -->
+<section class="countdown-section" id="countdown">
+  <div class="countdown-glow" aria-hidden="true"></div>
+  <span class="eyebrow eyebrow-gold">We're Almost Ready</span>
+  <h2 class="countdown-headline" id="countdownHeadline">Blaqplate Opens In</h2>
+
+  <div class="countdown-big" id="countdownBig">
+    <div class="cb-item"><span class="cb-num" data-unit="days">00</span><span class="cb-label">Days</span></div>
+    <div class="cb-item"><span class="cb-num" data-unit="hours">00</span><span class="cb-label">Hours</span></div>
+    <div class="cb-item"><span class="cb-num" data-unit="minutes">00</span><span class="cb-label">Minutes</span></div>
+    <div class="cb-item"><span class="cb-num" data-unit="seconds">00</span><span class="cb-label">Seconds</span></div>
+  </div>
+
+  <p class="countdown-date">Saturday, August 30, 2026 &middot; Ugbowo, Benin City</p>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="location" id="location">
+  <div class="location-inner">
+    <div class="location-copy">
+      <span class="eyebrow">05 — Find Us</span>
+      <h2 class="section-title">Come Find Us.</h2>
+      <p class="location-address">300, Ugbowo Lagos Rd,<br>Opp. UNIBEN, Beside Post Office,<br>Ugbowo, Benin City.</p>
+
+      <div class="location-actions">
+        <a href="https://www.google.com/maps/search/?api=1&query=300+Ugbowo+Lagos+Rd+Opp+UNIBEN+Beside+Post+Office+Ugbowo" class="loc-btn loc-btn-primary" target="_blank" rel="noopener">
+          <span>📍</span> Open in Google Maps
+        </a>
+        <a href="tel:+2349155501988" class="loc-btn loc-btn-outline">
+          <span>📞</span> Call Blaqplate
+        </a>
+        <a href="https://wa.me/2349155501988" class="loc-btn loc-btn-outline" target="_blank" rel="noopener">
+          <span>💬</span> WhatsApp Us
+        </a>
+      </div>
+    </div>
+    <div class="location-map ph-image ph-map" aria-hidden="true">
+      <span class="ph-label">Map embed — drop in Google Maps iframe with final coordinates</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL ============ -->
+<section class="social" id="social">
+  <span class="eyebrow">06 — Follow Along</span>
+  <h2 class="section-title">Follow The<br>Blaqplate Experience</h2>
+  <a href="https://instagram.com/blaqplateofficial" class="social-handle" target="_blank" rel="noopener">@blaqplateofficial</a>
+
+  <div class="social-grid">
+    <div class="ph-image ph-social" data-tone="red"></div>
+    <div class="ph-image ph-social" data-tone="gold"></div>
+    <div class="ph-image ph-social" data-tone="black"></div>
+    <div class="ph-image ph-social" data-tone="red2"></div>
+    <div class="ph-image ph-social" data-tone="gold2"></div>
+    <div class="ph-image ph-social" data-tone="black2"></div>
+  </div>
+
+  <a href="https://instagram.com/blaqplateofficial" class="btn btn-primary" target="_blank" rel="noopener">Follow on Instagram</a>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="footer-logo">BLAQ<span>PLATE</span></span>
+      <p>&ldquo;Not Just Food... A Feeling.&rdquo;</p>
+    </div>
+
+    <nav class="footer-nav">
+      <span class="footer-col-title">Navigate</span>
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#craving">Menu</a>
+      <a href="#location">Contact</a>
+    </nav>
+
+    <div class="footer-social">
+      <span class="footer-col-title">Connect</span>
+      <a href="https://instagram.com/blaqplateofficial" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/2349155501988" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+
+    <div class="footer-contact">
+      <span class="footer-col-title">Visit</span>
+      <p>300, Ugbowo Lagos Rd,<br>Opp. UNIBEN, Ugbowo, Benin City</p>
+      <a href="tel:+2349155501988">+234 915 550 1988</a>
+    </div>
+  </div>
+
+  <div class="ticker ticker-footer" aria-hidden="true">
+    <div class="ticker-track">
+      <span>NOT JUST FOOD</span><span class="ticker-dot">●</span>
+      <span>A FEELING</span><span class="ticker-dot">●</span>
+      <span>NOT JUST FOOD</span><span class="ticker-dot">●</span>
+      <span>A FEELING</span><span class="ticker-dot">●</span>
+      <span>NOT JUST FOOD</span><span class="ticker-dot">●</span>
+      <span>A FEELING</span><span class="ticker-dot">●</span>
+      <span>NOT JUST FOOD</span><span class="ticker-dot">●</span>
+      <span>A FEELING</span><span class="ticker-dot">●</span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; 2026 Blaqplate. All rights reserved.</span>
+    <span>Ugbowo, Benin City, Nigeria</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/2349155501988" class="mobile-order-bar" target="_blank" rel="noopener">
+  <span class="mob-icon">💬</span> Order on WhatsApp
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
